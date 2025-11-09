@@ -1,0 +1,117 @@
+//Ideias de Código para Landing Page
+HTML:
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css" />
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReUseB - Plataforma Sustentável</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header, footer {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #388e3c;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #2e7d32;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background-color: #2e7d32;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ReUseB</h1>
+    <p>Transformando resíduos em oportunidades</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#como-funciona">Como Funciona</a>
+    <a href="#aprendizados">Aprendizados</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>
+      A pesquisa realizada com os clientes indicou que o ReUseB possui alto potencial ao solucionar a dificuldade de encontrar materiais reutilizáveis dentro dos prazos e limites orçamentários. A plataforma conecta indústrias de forma eficiente, viabilizando negociações ágeis e sustentáveis.
+    </p>
+  </section>
+
+  <section id="como-funciona">
+    <h2>Como Funciona</h2>
+    <ul>
+      <li>Cadastro de empresas e materiais disponíveis</li>
+      <li>Busca por materiais conforme demanda</li>
+      <li>Negociação direta entre fornecedores e compradores</li>
+      <li>Logística e acompanhamento da transação</li>
+    </ul>
+  </section>
+
+  <section id="aprendizados">
+    <h2>Aprendizados</h2>
+    <p>
+      Durante o desenvolvimento, compreendemos melhor os desafios das empresas na gestão de resíduos e na busca por soluções economicamente viáveis. Esse aprendizado permitiu aprimorar a proposta do projeto com foco em eficiência, sustentabilidade e inovação.
+    </p>
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <form>
+      <input type="text" placeholder="Nome" required />
+      <input type="email" placeholder="E-mail" required />
+      <textarea rows="5" placeholder="Mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ReUseB. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
