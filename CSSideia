@@ -1,0 +1,62 @@
+CSS
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header, footer {
+  background-color: #2e7d32;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #388e3c;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #2e7d32;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #2e7d32;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
